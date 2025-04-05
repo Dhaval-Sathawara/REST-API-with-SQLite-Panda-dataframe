@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "8faa295e-a6fe-4add-96d2-145c2c94ec75",
+		"name": "STUDENT-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43588994",
+		"_collection_link": "https://dhaval-7468931.postman.co/workspace/Dhaval's-Workspace~6473b21e-c4d9-49a6-8528-fbfaefdeaea0/collection/43588994-8faa295e-a6fe-4add-96d2-145c2c94ec75?action=share&source=collection_link&creator=43588994"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5432",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5432",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5432"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5432/getalldata",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5432/getalldata",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5432",
+					"path": [
+						"getalldata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5432/postdata",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"USN\":20,\r\n    \"NAME\":\"DRS5\",\r\n    \"BRANCH\":\"CSE\",\r\n    \"MARKS\":25\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5432/postdata",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5432",
+					"path": [
+						"postdata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5432/getno/2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5432/getno/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5432",
+					"path": [
+						"getno",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5432/getname/DRS3",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5432/getname/DRS3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5432",
+					"path": [
+						"getname",
+						"DRS3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5432/getbranch/BDA",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5432/getbranch/CS",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5432",
+					"path": [
+						"getbranch",
+						"CS"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5432/updateno/2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"USN\":55,\r\n    \"NAME\":\"DRS5\",\r\n    \"BRANCH\":\"CSE\",\r\n    \"MARKS\":25\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5432/updateno/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5432",
+					"path": [
+						"updateno",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5432/deleteno/8",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5432/deleteno/8",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5432",
+					"path": [
+						"deleteno",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
